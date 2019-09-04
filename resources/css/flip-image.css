@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #aa00ff,#0d47a1);
+    color: #1d1d1d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content {
+    text-align: center;
+}
+
+.image-content .row {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.image-container {
+    width: 200px;
+}
+
+.image-container img{
+    width:100%;
+}
+
